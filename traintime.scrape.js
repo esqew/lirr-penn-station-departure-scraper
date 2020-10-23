@@ -64,7 +64,6 @@ const retrieveAndProcessLIRRStationData = async () => {
 const retrieveAndProcessLIRRScheduleData = async () => {
     const apiData = await getLIRRScheduleData();
     for (var i = 0; i < apiData.data.TRAINS.length; i++) {
-        console.dir(apiData.data.TRAINS[i]);
         var queryResult = await sql.query`
             USE scrapes;
             IF NOT EXISTS
@@ -111,7 +110,6 @@ const retrieveAndProcessLIRRScheduleData = async () => {
                         run_date = ${apiData.data.TRAINS[i].RUN_DATE}
             END     
         `;
-        console.dir(queryResult);           
     }
 }
 
