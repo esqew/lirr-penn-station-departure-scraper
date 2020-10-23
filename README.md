@@ -1,0 +1,2 @@
+# lirr-traintime-scraper
+A rudimentary Node.js script to read and procedurally retrieve train time and track data from LIRR's API and store it in an MSSQL database for future use in data science projects.

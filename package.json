@@ -1,0 +1,17 @@
+{
+  "name": "lirr-penn-station-departure-scraper",
+  "version": "1.0.0",
+  "description": "A rudimentary Node.js script to read and procedurally retrieve Penn LIRR Station train departure and track data from LIRR's API and store it in an MSSQL database for future use in data science projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sean F Quinn <sean@esqew.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "mssql": "^6.2.3"
+  }
+}
