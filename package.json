@@ -9,9 +9,9 @@
   "author": "Sean F Quinn <sean@esqew.com>",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "colors": "^1.4.0",
     "dotenv": "^8.2.0",
-    "mssql": "^6.2.3"
+    "mssql": "^6.3.1"
   }
 }
